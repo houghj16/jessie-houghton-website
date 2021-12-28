@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1932" height="2861.641" viewBox="0 0 1932 2861.641">
+  <defs>
+    <filter id="Card_250x380" x="0" y="0" width="1932" height="2861.641" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="home_bg" transform="translate(-7029 -83)">
+    <g transform="matrix(1, 0, 0, 1, 7029, 83)" filter="url(#Card_250x380)">
+      <path id="Card_250x380-2" data-name="Card 250x380" d="M3,0H1917c1.657,0,3,2.117,3,4.728V2844.913c0,2.611-1.343,4.728-3,4.728H3c-1.657,0-3-2.117-3-4.728V4.728C0,2.117,1.343,0,3,0Z" transform="translate(6 4)" fill="#ffeadb"/>
+    </g>
+    <circle id="Ellipse_34" data-name="Ellipse 34" cx="650" cy="650" r="650" transform="translate(7345 595)" fill="#ff9a76"/>
+  </g>
+</svg>

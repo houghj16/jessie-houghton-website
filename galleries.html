@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Basic Page Needs––––––––––––––––––––––––––– -->
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Gallery page for Jessie Houghton's portfolio website. Contains Jessie's project images and descriptions." />
+    <meta name="keywords" content="Gallery, Computer Science, Artwork, UX design, UI design, Graphic Design, Digital
+Illustration, Logo Design" />
+    <meta name="author" content="Jessie Houghton" />
+    <title>Jessie | Galleries</title>
+
+    <!-- Bootstrap Core CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <!-- Custom CSS ––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/selectors.css">
+    <!-- Fontawesome ––––––––––––––––––––––––––– -->
+    <script src="https://kit.fontawesome.com/5c9f2dfb26.js"></script>
+    <!-- Favicon––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-expand-sm navbar-light">
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img alt="logo" width="50" height="50" src="img/menu_bar_logo.svg" />
+                </a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Galleries</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Body Content -->
+    <h1 class="my-3">Galleries</h1>
+    <div class="container">
+
+        <!-- Mobile -->
+        <div class="row d-sm-none">
+            <div id="accordion" role="tablist">
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingOne">
+                        <h5 class="mb-0">
+                            <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <img class="d-block mx-auto img-fluid" alt="visual artist icon" src="img/software_engineer_normal.svg" height="100px" />
+                            </a>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+                        <div class="card-body">
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS1">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/598_thumbnail@2x.png" alt="Human Computer Interaction">
+                                    <div class="centered">
+                                        <h1>Human Computer Interaction</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS2">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/485_thumbnail@2x.png" alt="Web Systems">
+                                    <div class="centered">
+                                        <h1>Full Stack Development</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS3">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/482_thumbnail@2x.png" alt="Operating Systems">
+                                    <div class="centered">
+                                        <h1>Operating Systems</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS4">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/388_thumbnail@2x.png" alt="Computer Security">
+                                    <div class="centered">
+                                        <h1>Computer Security</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS5">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/280_thumbnail@2x.png" alt="Intro Sequence">
+                                    <div class="centered">
+                                        <h1>Introductory Sequence</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" role="tab" id="headingTwo">
+                        <h5 class="mb-0">
+                            <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <img class="d-block mx-auto img-fluid" alt="visual artist icon" src="img/visual_artist_normal.svg" height="100px" />
+                            </a>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="card-body">
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA1">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/asset_kit_thumbnail@2x.png" alt="Designing Web Interfaces">
+                                    <div class="centered">
+                                        <h1>Web Interface Design</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA2">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/typo_jazz_thumbnail@2x.png" alt="Typography">
+                                    <div class="centered">
+                                        <h1>Typography</h1>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA3">
+                                <div class="mt-4 hover_effect">
+                                    <img class="img-fluid" src="img/2d_cube_thumbnail@2x.png" alt="2 Dimensional Studio">
+                                    <div class="centered">
+                                        <h1>2D Studies</h1>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Desktop -->
+        <div class="row">
+
+            <!-- Programming Gallery -->
+            <div class="col-sm-6 d-none d-sm-block">
+                <a id="programming_gallery">
+                    <img class="d-block mx-auto img-fluid" alt="visual artist icon" src="img/software_engineer_normal.svg" height="100px" />
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS1">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/598_thumbnail@2x.png" alt="Human Computer Interaction">
+                        <div class="centered">
+                            <h1>Human Computer Interaction</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS2">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/485_thumbnail@2x.png" alt="Web Systems">
+                        <div class="centered">
+                            <h1>Full Stack Development</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS3">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/482_thumbnail@2x.png" alt="Operating Systems">
+                        <div class="centered">
+                            <h1>Operating Systems</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS4">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/388_thumbnail@2x.png" alt="Computer Security">
+                        <div class="centered">
+                            <h1>Computer Security</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalCS5">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/280_thumbnail@2x.png" alt="Intro Sequence">
+                        <div class="centered">
+                            <h1>Introductory Sequence</h1>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Visual Art Gallery -->
+            <div class="col-sm-6 d-none d-sm-block">
+                <a id="visual_art_gallery">
+                    <img class="d-block mx-auto img-fluid" alt="visual artist icon" src="img/visual_artist_normal.svg" height="100px" />
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA1">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/asset_kit_thumbnail@2x.png" alt="Designing Web Interfaces">
+                        <div class="centered">
+                            <h1>Web Interface Design</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA2">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/typo_jazz_thumbnail@2x.png" alt="Typography">
+                        <div class="centered">
+                            <h1>Typography</h1>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="#" class="portfolio-link" data-toggle="modal" data-target="#portfolioModalA3">
+                    <div class="mt-4 hover_effect">
+                        <img class="img-fluid" src="img/2d_cube_thumbnail@2x.png" alt="2 Dimensional Studio">
+                        <div class="centered">
+                            <h1>2D Studies</h1>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--footer-->
+    <footer>
+        <div class="container-fluid align-items-center text-center">
+            <div class="row">
+                <div class="col-sm-12">
+                    <hr>
+                    <div class="social_icons">
+                        <a href="https://github.com/houghj16" target="_blank"><img src="img/github.svg" alt="Github"></a>
+                        <a href="https://www.facebook.com/jessie.houghton.372" target="_blank"><img src="img/facebook.svg" alt="Facebook"></a>
+                        <a href="https://www.linkedin.com/in/jessica-houghton-336403169/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn"></a>
+                        <a href="mailto:houghj@umich.edu"><img src="img/envelope.svg" alt="Email"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <p>Made with ❤ in Ann Arbor, Michigan.<br>
+                        Copyright © 2020 Jessie Houghton. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--end of footer-->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+<!--cs modal 1: HCI-->
+<div class="portfolio-modal modal fade" id="portfolioModalCS1" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-fluid" src="img/598_thumbnail@2x.png" alt="EECS 598 image">
+
+                            </div>
+                            <div class="col-sm-8 text-center text-sm-left">
+                                <h2>Human Computer Interaction</h2>
+                                <p>In this course we explored the user-centered design process. We practiced each stage through a text-input redesign, where mine was focused on designing a mobile keyboard for one hand. A feature very similar to myimagined design is available on new Galaxy cell phones. Check out my write-ups for each stage:
+                                </p>
+                                <ul>
+                                    <a href="resources/hci_requirements_gathering.pdf" target="_blank">
+                                        <li>Requirements Gathering</li>
+                                    </a>
+                                    <a href="resources/hci_interactive_system_design_and_prototyping.pdf" target="_blank">
+                                        <li>Interactive System Design and Prototyping</li>
+                                    </a>
+                                    <a href="resources/hci_systems_evaluation.pdf" target="_blank">
+                                        <li>Interactive System Evaluation</li>
+                                    </a>
+                                    <a href="resources/hci_functional_interactive_system_prototyping_and_evaluation.pdf" target="_blank">
+                                        <li>Functional Interactive System Prototyping and Evaluation</li>
+                                    </a>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of portfolio modal-->
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!--cs modal 2: Web Systems-->
+<div class="portfolio-modal modal fade" id="portfolioModalCS2" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-fluid" src="img/485_thumbnail@2x.png" alt="EECS 485 image">
+
+                            </div>
+                            <div class="col-sm-8 text-center text-sm-left">
+                                <h2>Web Systems</h2>
+                                <p>As Michigan's "Full Stack Development" course, Web Systems introduced me to concepts including backend development working with a database, to frontend user interface and rendering.</p>
+                                <p>We practiced these concepts by creating an Instagram look-alike using three different approaches (Static Templated Pages, Server-Side Dynamic Pages, and Client Side Dynamic Pages). We also implemented a version of Map Reduce and a Google search engine look-alike. The specific technologies we used include python, sql, jinja2, flask, react and aws.</p>
+                                <p>I can do a live demo of this code, but unfortunately, I cannot post it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--cs modal 3: Operating Systems-->
+<div class="portfolio-modal modal fade" id="portfolioModalCS3" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-fluid" src="img/482_thumbnail@2x.png" alt="EECS 388 image">
+
+                            </div>
+                            <div class="col-sm-8 text-center text-sm-left">
+                                <h2>Operating Systems</h2>
+                                <p>This course was a deep dive into lower concepts including threading (both writing concurrent programs and implementing a threading library), virtual memory and paging, CPU scheduling. I learned about the security concerns with sharing limited resources and how to maximize efficiency from the system. This course if often touted as the most difficult undergrad computer scienct course because the projets force you to implement high fidelity versions of operating system concepts. I learned a lot!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of portfolio modal-->
+            <div class="modal-footer">
+                <div class="container">
+                    <!--To change this layout, add the justify-content-start or justify-content-end or justify-content-between-->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--cs modal 4: Computer Security-->
+<div class="portfolio-modal modal fade" id="portfolioModalCS4" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-fluid" src="img/388_thumbnail@2x.png" alt="EECS 388 image">
+
+                            </div>
+                            <div class="col-sm-8 text-center text-sm-left">
+                                <h2>Intro to Computer Security</h2>
+                                <p>In this course we explored computer security concepts and applied them in simulated environments. The projects topics included:
+                                </p>
+                                <ul>
+                                    <li>Cryptography</li>
+                                    <li>Web Attacks</li>
+                                    <li>Network Attacks</li>
+                                    <li>Applicaton Security</li>
+                                    <li>Forensics</li>
+                                </ul>
+                                <p>My favorite part of this course was learning so many new technologies. We wrote projects in python, bash, html/css/javacript, go, C++, and we used forensic tools like autopsy.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="container">
+                    <!--To change this layout, add the justify-content-start or justify-content-end or justify-content-between-->
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--cs modal 5: Intro Sequence-->
+<div class="portfolio-modal modal fade" id="portfolioModalCS5" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-4">
+                                <img class="img-fluid" src="img/280_thumbnail@2x.png" alt="EECS 280 image">
+
+                            </div>
+                            <div class="col-sm-8 text-center text-sm-left">
+                                <h2>Data Structures, Algorithms, Descrete Mathematics, and Computer Architecture</h2>
+                                <p>This series of topics emodied the basics of computer science and built my foundation in C and C++. They helped me confirm that computer science was something I am really passionate about and enjoy learning!</p>
+                                <p>For the past three semesters, I have been an IA for one of these courses, Intro to Programming and Data Structures. It's been one of the major highlights of my college experience, and it's helped influence my goals and passions about educational technologies!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--art modal 1: Designing Web Interfaces-->
+<div class="portfolio-modal modal fade" id="portfolioModalA1" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-9">
+
+                                <!-- Carousel -->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <source media="(min-width:480px)" srcset="img/web_asset_kit_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/web_asset_kit_large.png" alt="Web Design, Asset Kit">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <source media="(min-width:480px)" srcset="img/web_desktop_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/web_desktop_large.png" alt="Web Design, Home: Black and White">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <source media="(min-width:480px)" srcset="img/web_mobile_bw_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/web_mobile_bw_large.png" alt="Web Design - Mobile, Home: Black and White">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3 text-center text-sm-left">
+                                <h2>Designing Web Interfaces</h2>
+                                <p>Here are some artifacts from the process of desgining my own personal website.</p>
+                                <br>
+                                <p>In this course, we started with a user survey and a proposal, while slowly building up the design principals and technical skills to produce a final product.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--art modal 2: Typo-->
+<div class="portfolio-modal modal fade" id="portfolioModalA2" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-9">
+
+                                <!-- Carousel -->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <source media="(min-width:480px)" srcset="img/typo_jazz_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/typo_jazz_large.png" alt="Typography, Jazz">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <source media="(min-width:480px)" srcset="img/typo_performance_poster_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/typo_performance_poster_large.png" alt="Typography, Performance Poster">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-3 text-center text-sm-left">
+                                <h2>Typography</h2>
+                                <p>I learned the fundamentals of page layout, kerning, etc. The final portfolio consisted of a stylized performance poster</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--end of portfolio modal-->
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--modal 3:2 Dimensional Studio-->
+<div class="portfolio-modal modal fade" id="portfolioModalA3" tabindex="-1 " role="dialog " aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header justify-content-end">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-inner">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-8">
+
+                                <!-- Carousel -->
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="carousel-item active">
+                                            <source media="(min-width:480px)" srcset="img/2d_cube_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/2d_cube_large.png" alt="2D, Cube">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <source media="(min-width:480px)" srcset="img/2d_fries_large@2x.png" class="d-block w-100">
+                                            <img class="d-block w-100" src="img/2d_fries_large.png" alt="2D, V">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+
+                            </div>
+                            <div class="col-sm-4 text-center text-sm-left">
+                                <h2>2D Studio</h2>
+                                <p>This course explored 2D media through painting, photography, artbook making, etc</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-sm-auto text-center">
+                            <a href="#" class="back" data-dismiss="modal">Back to Galleries</a>
+                        </div>
+                        <div class="col-sm-auto text-center">
+                            <a class="prev" href="#" onclick="return false;">Prev</a> &nbsp; /&nbsp;
+                            <a class="next" href="#" onclick="return false;">Next</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
